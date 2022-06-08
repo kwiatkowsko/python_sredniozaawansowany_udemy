@@ -17,6 +17,7 @@ transformations = [double, square, div2, negative]
 tmp_return_value = number
 for i in transformations:
     print(i.__name__, i(tmp_return_value))
+number = 135
 transformations = [square, square, div2, double]
 tmp_return_value = number
 for i in transformations:
